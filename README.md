@@ -11,7 +11,9 @@ Il s'agit d'une implémentation Python de l'algorithme de Dijkstra, un algorithm
 
 
 # Utilisation
-Pour utiliser l'algorithme de Dijkstra, vous pouvez exécuter soit le script dijkstra.py, soit le script dijkstra_heap.py qui utilise des tas pour parcourir le graphe
+Pour utiliser l'algorithme de Dijkstra, vous pouvez exécuter soit le script 'dijkstra.py', soit le script 'dijkstra_heap.py' qui utilise des tas pour parcourir le graphe
+
+Pour verfie les resultats avec un test unitaire, vous pouvez exécuter 'testuni.py'
 
 # Notes
 Cette implémentation de l'algorithme de Dijkstra utilise une file de priorité pour prioriser la relaxation des bords de poids plus faibles. Cela entraîne un temps d'exécution de O (E log V) pour les graphes peu denses.
